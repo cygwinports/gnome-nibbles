@@ -1,0 +1,13 @@
+inherit gnome2
+
+NAME="gnome-nibbles"
+VERSION=3.8.0
+RELEASE=1
+CATEGORY="Games"
+SUMMARY="GNOME worm game"
+DESCRIPTION="Nibbles is a worm game for GNOME. The player controls a 2D worm
+while trying to get food. Getting food gives points, but hitting anything
+causes a loss of points. When all points are lost, the player loses."
+OBSOLETES="gnibbles"
+
+CYGCONF_ARGS="--disable-setgid"
